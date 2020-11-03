@@ -20,6 +20,6 @@
   <project remote="github"  revision="rel-v2019.2"      name="xilinx/meta-virtualization"      path="sources/meta-virtualization"/>
   <project remote="github"  revision="rel-v2019.2"      name="xilinx/meta-jupyter"             path="sources/meta-jupyter"/>
 
-  <project remote="github"  name="akira-nishiyama/meta-ultra96v2"                              path="sources/meta-ultra96v2"/>
+  <project remote="github"  revision="main"             name="akira-nishiyama/meta-ultra96v2"  path="sources/meta-ultra96v2"/>
 
 </manifest>
