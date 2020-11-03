@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="github"  fetch="git://github.com"/>
+  <remote name="remote"  fetch="https://github.com"/>
 
   <default sync-j="4"/>
 
-  <project remote="github"  revision="rel-v2019.2"      name="xilinx/yocto-scripts"            path="."/>
-  <project remote="github"  revision="rel-v2019.2"      name="xilinx/yocto-manifests"          path="sources/manifest"/>
-  <project remote="github"  revision="rel-v2019.2"      name="xilinx/meta-xilinx"              path="sources/meta-xilinx"/>
-  <project remote="github"  revision="rel-v2019.2"      name="xilinx/meta-xilinx-tools"        path="sources/meta-xilinx-tools"/>
-  <project remote="github"  revision="rel-v2019.2"      name="xilinx/meta-petalinux"           path="sources/meta-petalinux"/>
+  <project remote="remote"  revision="main"             name="akira-nishiyama/petalinux-ros2-yocto-scripts" path="."/>
+  <project remote="remote"  revision="rel-v2019.2"      name="xilinx/yocto-manifests"                       path="sources/manifest"/>
+  <project remote="remote"  revision="rel-v2019.2"      name="xilinx/meta-xilinx"                           path="sources/meta-xilinx"/>
+  <project remote="remote"  revision="rel-v2019.2"      name="xilinx/meta-xilinx-tools"                     path="sources/meta-xilinx-tools"/>
+  <project remote="remote"  revision="rel-v2019.2"      name="xilinx/meta-petalinux"                        path="sources/meta-petalinux"/>
 
-  <project remote="github"  revision="rel-v2019.2"      name="xilinx/poky"                     path="sources/core"/>
-  <project remote="github"  revision="rel-v2019.2"      name="xilinx/meta-mingw"               path="sources/meta-mingw"/>
-  <project remote="github"  revision="rel-v2019.2"      name="xilinx/meta-openamp"             path="sources/meta-openamp"/>
-  <project remote="github"  revision="rel-v2019.2"      name="xilinx/meta-browser"             path="sources/meta-browser"/>
-  <project remote="github"  revision="rel-v2019.2"      name="xilinx/meta-openembedded"        path="sources/meta-openembedded"/>
-  <project remote="github"  revision="rel-v2019.2"      name="xilinx/meta-qt5"                 path="sources/meta-qt5"/>
-  <project remote="github"  revision="rel-v2019.2"      name="xilinx/meta-linaro"              path="sources/meta-linaro"/>
-  <project remote="github"  revision="rel-v2019.2"      name="xilinx/meta-virtualization"      path="sources/meta-virtualization"/>
-  <project remote="github"  revision="rel-v2019.2"      name="xilinx/meta-jupyter"             path="sources/meta-jupyter"/>
+  <project remote="remote"  revision="rel-v2019.2"      name="xilinx/poky"                                  path="sources/core"/>
+  <project remote="remote"  revision="rel-v2019.2"      name="xilinx/meta-mingw"                            path="sources/meta-mingw"/>
+  <project remote="remote"  revision="rel-v2019.2"      name="xilinx/meta-openamp"                          path="sources/meta-openamp"/>
+  <project remote="remote"  revision="rel-v2019.2"      name="xilinx/meta-browser"                          path="sources/meta-browser"/>
+  <project remote="remote"  revision="rel-v2019.2"      name="xilinx/meta-openembedded"                     path="sources/meta-openembedded"/>
+  <project remote="remote"  revision="rel-v2019.2"      name="xilinx/meta-qt5"                              path="sources/meta-qt5"/>
+  <project remote="remote"  revision="rel-v2019.2"      name="xilinx/meta-linaro"                           path="sources/meta-linaro"/>
+  <project remote="remote"  revision="rel-v2019.2"      name="xilinx/meta-virtualization"                   path="sources/meta-virtualization"/>
+  <project remote="remote"  revision="rel-v2019.2"      name="xilinx/meta-jupyter"                          path="sources/meta-jupyter"/>
 
-  <project remote="github"  revision="main"             name="akira-nishiyama/meta-ultra96v2"  path="sources/meta-ultra96v2"/>
+  <project remote="remote"  revision="main"             name="akira-nishiyama/meta-ultra96v2"               path="sources/meta-ultra96v2"/>
 
 </manifest>
