@@ -5,7 +5,7 @@
   <default sync-j="4"/>
 
   <project remote="remote"  revision="main"             name="akira-nishiyama/petalinux-ros2-yocto-scripts"     path="."/>
-  <project remote="remote"  revision="main"             name="akira-nishiyama/petalinux-ros2-manifests"         path="sources/manifest"/>
+  <project remote="remote"  revision="feature-rel-v2020.1" name="akira-nishiyama/petalinux-ros2-manifests"         path="sources/manifest"/>
   <project remote="remote"  revision="rel-v2020.1"      name="xilinx/meta-xilinx"                               path="sources/meta-xilinx"/>
   <project remote="remote"  revision="rel-v2020.1"      name="xilinx/meta-xilinx-tools"                         path="sources/meta-xilinx-tools"/>
   <project remote="remote"  revision="rel-v2020.1"      name="xilinx/meta-petalinux"                            path="sources/meta-petalinux"/>
