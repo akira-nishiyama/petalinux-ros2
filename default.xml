@@ -6,21 +6,21 @@
 
   <project remote="remote"  revision="main"             name="akira-nishiyama/petalinux-ros2-yocto-scripts"     path="."/>
   <project remote="remote"  revision="main"             name="akira-nishiyama/petalinux-ros2-manifests"         path="sources/manifest"/>
-  <project remote="remote"  revision="rel-v2019.2"      name="xilinx/meta-xilinx"                               path="sources/meta-xilinx"/>
-  <project remote="remote"  revision="rel-v2019.2"      name="xilinx/meta-xilinx-tools"                         path="sources/meta-xilinx-tools"/>
-  <project remote="remote"  revision="rel-v2019.2"      name="xilinx/meta-petalinux"                            path="sources/meta-petalinux"/>
+  <project remote="remote"  revision="rel-v2020.1"      name="xilinx/meta-xilinx"                               path="sources/meta-xilinx"/>
+  <project remote="remote"  revision="rel-v2020.1"      name="xilinx/meta-xilinx-tools"                         path="sources/meta-xilinx-tools"/>
+  <project remote="remote"  revision="rel-v2020.1"      name="xilinx/meta-petalinux"                            path="sources/meta-petalinux"/>
 
-  <project remote="remote"  revision="rel-v2019.2"      name="xilinx/poky"                                      path="sources/core"/>
-  <project remote="remote"  revision="rel-v2019.2"      name="xilinx/meta-mingw"                                path="sources/meta-mingw"/>
-  <project remote="remote"  revision="rel-v2019.2"      name="xilinx/meta-openamp"                              path="sources/meta-openamp"/>
-  <project remote="remote"  revision="rel-v2019.2"      name="xilinx/meta-browser"                              path="sources/meta-browser"/>
-  <project remote="remote"  revision="rel-v2019.2"      name="xilinx/meta-openembedded"                         path="sources/meta-openembedded"/>
-  <project remote="remote"  revision="rel-v2019.2"      name="xilinx/meta-qt5"                                  path="sources/meta-qt5"/>
-  <project remote="remote"  revision="rel-v2019.2"      name="xilinx/meta-linaro"                               path="sources/meta-linaro"/>
-  <project remote="remote"  revision="rel-v2019.2"      name="xilinx/meta-virtualization"                       path="sources/meta-virtualization"/>
-  <project remote="remote"  revision="rel-v2019.2"      name="xilinx/meta-jupyter"                              path="sources/meta-jupyter"/>
+  <project remote="remote"  revision="rel-v2020.1"      name="xilinx/poky"                                      path="sources/core"/>
+  <project remote="remote"  revision="rel-v2020.1"      name="xilinx/meta-mingw"                                path="sources/meta-mingw"/>
+  <project remote="remote"  revision="rel-v2020.1"      name="xilinx/meta-openamp"                              path="sources/meta-openamp"/>
+  <project remote="remote"  revision="rel-v2020.1"      name="xilinx/meta-browser"                              path="sources/meta-browser"/>
+  <project remote="remote"  revision="rel-v2020.1"      name="xilinx/meta-openembedded"                         path="sources/meta-openembedded"/>
+  <project remote="remote"  revision="rel-v2020.1"      name="xilinx/meta-qt5"                                  path="sources/meta-qt5"/>
+  <project remote="remote"  revision="rel-v2020.1"      name="xilinx/meta-linaro"                               path="sources/meta-linaro"/>
+  <project remote="remote"  revision="rel-v2020.1"      name="xilinx/meta-virtualization"                       path="sources/meta-virtualization"/>
+  <project remote="remote"  revision="rel-v2020.1"      name="xilinx/meta-jupyter"                              path="sources/meta-jupyter"/>
 
   <project remote="remote"  revision="main"             name="akira-nishiyama/meta-ultra96v2"                   path="sources/meta-ultra96v2"/>
-  <project remote="remote"  revision="thud"             name="akira-nishiyama/meta-ros"                         path="sources/meta-ros"/>
+  <project remote="remote"  revision="zeus"             name="akira-nishiyama/meta-ros"                         path="sources/meta-ros"/>
 
 </manifest>
