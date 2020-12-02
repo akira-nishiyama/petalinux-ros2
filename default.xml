@@ -22,7 +22,7 @@
   <project remote="remote"  revision="rel-v2020.2"          name="xilinx/meta-clang"                                path="sources/meta-clang"/>
   <project remote="remote"  revision="rel-v2020.2"          name="xilinx/meta-vitis-ai"                             path="sources/meta-vitis-ai"/>
 
-  <project remote="remote"  revision="feature-v2020.1"      name="akira-nishiyama/meta-ultra96v2"                   path="sources/meta-ultra96v2"/>
+  <project remote="remote"  revision="feature-v2020.2"      name="akira-nishiyama/meta-ultra96v2"                   path="sources/meta-ultra96v2"/>
   <project remote="remote"  revision="zeus"                 name="akira-nishiyama/meta-ros"                         path="sources/meta-ros"/>
 
 </manifest>
