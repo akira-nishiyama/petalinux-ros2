@@ -14,7 +14,7 @@ fetch all repos and setup yocto environment.
 
 ```{class="prettyprint lang-sh"}
 cd <petalinux-project-path>
-repo init -u http://github.com/akira-nishiyama/petalinux-ros2-manifests -b feature-rel-v2020.1
+repo init -u http://github.com/akira-nishiyama/petalinux-ros2-manifests -b feature-rel-v2020.2
 repo sync
 source setupsdk
 ```
