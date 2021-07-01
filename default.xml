@@ -26,6 +26,6 @@
   <project remote="remote"  revision="rel-v2021.1"          name="xilinx/meta-python2"                              path="sources/meta-python2"/>
 
   <project remote="remote"  revision="feature-v2020.2"      name="akira-nishiyama/meta-ultra96v2"                   path="sources/meta-ultra96v2"/>
-  <project remote="remote"  revision="feature-v2020.2"      name="akira-nishiyama/meta-ros"                         path="sources/meta-ros"/>
+  <project remote="remote"  revision="feature-v2021.1"      name="akira-nishiyama/meta-ros"                         path="sources/meta-ros"/>
 
 </manifest>
